@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String ROOT_URL = "http://siobat.byethost33.com/api/";
+    public static final String ROOT_URL = "http://shrouded-cliffs-91426.herokuapp.com/";
     private static int TIME_OUT = 1000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

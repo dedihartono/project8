@@ -12,6 +12,6 @@ import retrofit2.http.GET;
 
 public interface ApiService {
 
-    @GET("obat")
+    @GET("api/obat")
     Call<List<ModelData>> getDataObat();
 }
