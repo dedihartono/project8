@@ -75,8 +75,8 @@ public class DataObat extends AppCompatActivity implements AdapterView.OnItemCli
 
                     for (int i = 0; i < j; i++) {
 
-                        ModelData data = new ModelData(response.body().get(i).getNama(),
-                                response.body().get(i).getObatID());
+                        ModelData data = new ModelData(response.body().get(i).getObatID(),
+                                response.body().get(i).getNama());
 
                         dataObat.add(data);
                         Log.d("RESPON", "onResponse: " + response.body().get(i).getObatID());
