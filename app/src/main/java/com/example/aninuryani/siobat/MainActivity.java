@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String ROOT_URL = "http://localhost/project7/api/";
+    public static final String ROOT_URL = "http://siobat.byethost33.com/api/";
     private static int TIME_OUT = 1000;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
